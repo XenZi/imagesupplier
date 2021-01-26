@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    background: #111111;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: #009E66;
+}
+a:hover {
+    color: #00bd7a;
+}
+.input-box {
+    display: flex;
+    min-height: 30vh;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-image {
+    max-height: 350px;
+    overflow: hidden;
+}
+.picture-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.gallery-image img {
+    width: 100%;
+    object-fit: cover;
+}
+.site-info a{
+    color: white !important;
+    font-size: 32px;
+}
+.site-info {
+    margin-bottom: 50px !important;
+    border: 1px solid #cccccc;
+    padding: 14px;
+}
+.btn-more {
+    padding: 14px;
+    background: #009E66;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+}
+.output-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.submit-btn {
+    padding: 8px;
+    background: #009E66;
+    color: white;
+    border: 1px solid #009E66;
+}
+.search-input {
+    border: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.search-input:focus {
+    outline: #00bd7a;
+    box-shadow: none;
+}
+footer {
+    background: rgb(27, 26, 26);
+    margin: 0 !important;
+}
+footer p {
+    margin: 0 !important;
+    padding: 14px;
+}
